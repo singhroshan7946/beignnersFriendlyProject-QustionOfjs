@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* styling of button  */
+button {
+border-radius:4px ;
+padding: 6px 11px;
+background-color: #d01010;
+color: aliceblue;
+border: none;
+}
+button:hover {
+    border-radius: 8px;
+   padding: 8px 13px;
+   border: 1px solid black;
+}
