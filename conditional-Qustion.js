@@ -1,17 +1,14 @@
 //Qs1 //get user to input a number using prompt("Enter a numbers"). check if the number is a multiple of 5 or not.
 
-// const num = prompt("Enter a numbers")
-// if(num%5 === 0){
-//     console.log(num, "is a multiple of 5")
-// }
-// else{
-//     console.log(num, "is not a multiple of 5")
-// }
+const num = prompt("Enter a numbers")
+if(num%5 === 0){
+    console.log(num, "is a multiple of 5")
+}
+else{
+    console.log(num, "is not a multiple of 5")
+}
 // solve this assignment first before moving to next
 //Qs2 //get user to input a number using prompt("Enter a numbers"). check if the number is even or odd.
-
-
-
 
 
 
@@ -21,6 +18,8 @@
 //60-69 C
 //50-59 D
 //0-49 FAIL
+
+// solution of Qs3
 
 const marks = prompt("Enter your marks");
 if(marks >= 90 && marks <= 100){
